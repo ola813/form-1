@@ -1,0 +1,89 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(imges/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+	background-size:cover;
+	}
+
+h1{
+	 margin: -3px;
+    margin-left: 690px;
+    padding: 11px 0px 22px;
+	text-align: center;
+	font-size: 45px;
+	color:#76797A;
+
+}
+span{
+	color:#ff4980;
+}
+.mydiv{
+	margin: 0;
+	width: 320px;
+	height: 453px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(60%,-51%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 12px;
+}
+
+.mydiv h1{
+	color:#fff;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+
+}
+.mydiv p{
+
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+.mydiv input {
+	width: 100%;
+	margin-bottom: 20px;
+	} 
+.mydiv input[type="username"],input[type="password"]{
+	border:none;
+	border-bottom:1px solid #9C27B0;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.mydiv input[type="submit"]{
+	border:none;
+	outline: none;
+	background: #dc3fc1;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 16px;
+    padding: 7px;
+
+}
+.mydiv input[type="submit"]:hover{
+	cursor: pointer;
+	background:#E91E63;
+	color: #eee;
+
+}
+.mydiv input[ placeholder="Enter your Name"],input[placeholder="Enter your Password"]{
+	color: #fff;}
+
+.mydiv a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+.mydiv a:hover{
+	color :#fff;
+}
